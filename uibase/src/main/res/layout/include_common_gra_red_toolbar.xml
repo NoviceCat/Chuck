@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yxsh.uibase.uicore.view.ToolBarView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolBarView"
+    style="@style/base_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_toolbar_height"
+    android:background="@drawable/common_gra_red_color"
+    android:minHeight="44dp"
+    android:navigationIcon="@null"
+    app:centerText=""
+    app:centerTextColor="@android:color/white"
+    app:leftImageView="@drawable/ic_common_back_white"
+    app:rightTextColor="@android:color/white"
+    app:showBottomLine="false"
+    app:popupTheme="@style/popup_theme" />
+
+

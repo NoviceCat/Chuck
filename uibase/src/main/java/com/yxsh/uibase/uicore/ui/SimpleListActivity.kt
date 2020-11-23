@@ -1,0 +1,80 @@
+package com.yxsh.uibase.uicore.ui
+
+import android.view.View
+import androidx.lifecycle.Observer
+import com.chad.library.adapter.base.BaseQuickAdapter
+import com.yxsh.uibase.uicore.inner.SimpleListContract
+import com.yxsh.uibase.uicore.statuslayout.StatusLayoutType
+import com.yxsh.uibase.uicore.viewmodel.SimpleListViewModel
+
+/**
+ * 简单列表
+ * @author novic
+ * @date 2020/1/17
+ */
+abstract class SimpleListActivity<T, A : BaseQuickAdapter<T, *>, VM : SimpleListViewModel<T>> : BaseListActivity<T, A, VM>(),
+    SimpleListContract.SimpleListView<T> {
+
+    override fun statusLayoutRetry(view: View, status: StatusLayoutType) {
+        hideStatusLayout()
+        autoRefresh()
+    }
+
+    override fun registorUIChangeLiveDataCallBack() {
+        viewModel.loadCompleteEvent.observe(this, Observer {
+            loadComplete()
+        })
+        viewModel.showErrorEvent.observe(this, Observer {
+            showError()
+        })
+        viewModel.showEmptyEvent.observe(this, Observer {
+            showEmpty()
+        })
+        viewModel.showNoMoreEvent.observe(this, Observer {
+            showNoMore()
+        })
+        viewModel.pushDataEvent.observe(this, Observer { t ->
+            pushData(t)
+        })
+    }
+
+    override fun initLazyData() {
+        autoRefresh()
+    }
+
+    override fun doHttpRequest(isRefresh: Boolean) {
+        viewModel.getData(isRefresh)
+    }
+
+    override fun pushData(list: MutableList<T>) {
+        setAdapterData(list)
+    }
+
+    override fun showEmpty() {
+        if (isRefresh()) {
+            setNewData(null)
+            showEmptyLayout()
+        } else {
+            showNoMore()
+        }
+    }
+
+    override fun showError() {
+        if (isRefresh()) {
+            if (adapter.data.size == 0) {
+                setNewData(null)
+                showLoadErrorLayout()
+            } else {
+                showNoMore()
+            }
+        } else {
+            loadMoreFail()
+        }
+    }
+
+    override fun showNoMore() {
+        loadComplete()
+        loadMoreEnd()
+    }
+
+}

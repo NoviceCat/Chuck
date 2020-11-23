@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CicleProgressBar">
+        <attr name="outer_progress_back_color" format="color" />
+        <attr name="outer_progress_fore_color" format="color" />
+        <attr name="inner_progress_color" format="color" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_size" format="dimension" />
+    </declare-styleable>
+
+</resources>
