@@ -36,8 +36,8 @@ class InteriorActivity : BaseActivity<DefaultViewModel>() {
 
     override fun initView(rootView: View, savedInstanceState: Bundle?) {
         val args = Bundle()
-        args.putString(Extra.arg1, "福建")
-        args.putString(Extra.arg2, "泉州")
+        args.putString(Extra.arg1, "厦门")
+        args.putString(Extra.arg2, "思明")
         pushFragmentToBackStack(Interior1Fragment::class.java, args)
     }
 

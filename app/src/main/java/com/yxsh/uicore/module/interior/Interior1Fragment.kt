@@ -44,8 +44,8 @@ class Interior1Fragment : BaseFragment<DefaultViewModel>() {
         tv_content1.text = "收到Activity传递过来的参数：${province} ${city}"
         btn_start.setOnClickListener {
             val args = Bundle()
-            args.putString(Extra.arg1, "丰泽区")
-            args.putString(Extra.arg2, "万达广场")
+            args.putString(Extra.arg1, "厦门市")
+            args.putString(Extra.arg2, "才子汇")
             val baseActivity = activity as BaseActivity<*>
             baseActivity.pushFragmentToBackStack(Interior2Fragment::class.java, args)
         }

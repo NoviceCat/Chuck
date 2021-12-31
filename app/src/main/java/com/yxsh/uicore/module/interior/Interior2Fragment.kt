@@ -43,8 +43,8 @@ class Interior2Fragment : BaseFragment<DefaultViewModel>() {
         tv_content.text = "收到Interior1Fragment传递过来的参数：${location} ${desc}"
         btn_start.setOnClickListener {
             val args = Bundle()
-            args.putString(Extra.arg1, "娱播")
-            args.putString(Extra.arg2, "视你")
+            args.putString(Extra.arg1, "世界岛")
+            args.putString(Extra.arg2, "demo")
             val baseActivity = activity as BaseActivity<*>
             baseActivity.popTopFragment(args)
         }
