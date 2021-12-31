@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">UICore</string>
+    <string name="app_name">World Island</string>
+
+    <string name="title_index_home">首页</string>
+    <string name="title_index_video">视频</string>
+    <string name="title_index_msg">消息</string>
+    <string name="title_index_my">我的</string>
 </resources>

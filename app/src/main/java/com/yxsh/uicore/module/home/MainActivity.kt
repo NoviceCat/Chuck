@@ -15,6 +15,7 @@ import com.yxsh.uicore.module.customtoolbar.CustomToolbarActivity
 import com.yxsh.uicore.module.dialog.CommonAlertDialogActivity
 import com.yxsh.uicore.module.interior.InteriorActivity
 import com.yxsh.uicore.module.list.ListActivity
+import com.yxsh.uicore.module.main.WorldIslandMainActivity
 import com.yxsh.uicore.module.statuslayout.StatusLayoutActivity
 import com.yxsh.uicore.module.viewpager2.DragActivity
 import com.yxsh.uicore.module.viewpager2.ViewPager2Activity
@@ -53,7 +54,7 @@ class MainActivity : BaseActivity<DefaultViewModel>() {
         val list = mutableListOf(
             "基础控件", "CommonAlertDialog", "StatusLayout", "自定义StatusLayout", "完全自定义StatusLayout",
             "指定StatusLayout覆盖区域", "Activity和Fragment交互", "自定义toolbar", "SimpleList", "CommonWeb",
-            "ViewPager2", "drag"
+            "ViewPager2", "drag","世界岛首页"
         )
         recyclerView.adapter = adapter
         recyclerView.layoutManager = GridLayoutManagerWrap(this, 2)
@@ -96,6 +97,9 @@ class MainActivity : BaseActivity<DefaultViewModel>() {
                 }
                 "drag" -> {
                     DragActivity.start(this)
+                }
+                "世界岛首页" -> {
+                    WorldIslandMainActivity.start(this)
                 }
             }
         }

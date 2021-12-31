@@ -6,4 +6,7 @@
     <color name="text_color_hint">#BBBBBB</color>
 
     <color name="color_FFBD01">#FFBD01</color>
+
+    <color name="tab_textcolor_focus">#212121</color>
+    <color name="tab_textcolor_unfocus">#464646</color>
 </resources>
