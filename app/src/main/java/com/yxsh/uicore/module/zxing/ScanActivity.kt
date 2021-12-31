@@ -11,6 +11,7 @@ import android.os.Bundle
 import android.view.View
 import com.blankj.utilcode.util.LogUtils
 import com.blankj.utilcode.util.ToastUtils
+import com.yxsh.uibase.uicore.view.ToolBarView
 import kotlinx.android.synthetic.main.activity_scan_layout.*
 
 /**
@@ -34,8 +35,17 @@ class ScanActivity : BaseActivity<DefaultViewModel>(), QRCodeView.Delegate {
         return ViewModelProvider(this).get(DefaultViewModel::class.java)
     }
 
+    override fun onClickToolBarView(view: View, event: ToolBarView.ViewType) {
+        super.onClickToolBarView(view, event)
+        if (ToolBarView.ViewType.RIGHT_TEXT == event) {
+            ToastUtils.showShort("click album")
+        }
+    }
+
     override fun initView(rootView: View, savedInstanceState: Bundle?) {
         super.initView(rootView, savedInstanceState)
+        setToolBarTitle("ScanActivity")
+        setToolBarRightText("Album")
         zxingview.setDelegate(this)
     }
 
