@@ -12,7 +12,7 @@ import com.yxsh.uibase.uicore.ui.BaseFragment;
 
 /**
  * author novice
- * date 2019/11/6
+ * 
  */
 public class FragmentStarter {
 

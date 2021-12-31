@@ -12,7 +12,6 @@ import com.yxsh.uicore.R
 
 /**
  * @author novice
- * @date 2020/6/2
  */
 class MyApplication : Core() {
 

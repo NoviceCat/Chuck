@@ -4,7 +4,7 @@ import android.view.View
 
 /**
  * author novice
- * date 2019/11/7
+ *
  */
 interface DialogClickListener {
 

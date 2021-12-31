@@ -8,7 +8,7 @@ import com.yxsh.uicore.R
 
 /**
  * @author novice
- * @date 2020/6/29
+ *
  */
 class ExpendListAdapter : BaseQuickAdapter<String, BaseViewHolder>(R.layout.item_expend_list), LoadMoreModule {
 

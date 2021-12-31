@@ -3,7 +3,7 @@ package com.yxsh.uibase.utils
 /**
  * 控制点击，避免瞬间点击两下
  * author novice
- * date 2019/11/7
+ *
  */
 class DoubleClickUtils private constructor() {
 

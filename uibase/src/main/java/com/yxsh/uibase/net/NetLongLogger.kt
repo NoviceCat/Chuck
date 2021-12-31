@@ -5,7 +5,6 @@ import okhttp3.logging.HttpLoggingInterceptor
 
 /**
  * @author novice
- * @date 2020/6/2
  */
 class NetLongLogger : HttpLoggingInterceptor.Logger {
     override fun log(message: String) {

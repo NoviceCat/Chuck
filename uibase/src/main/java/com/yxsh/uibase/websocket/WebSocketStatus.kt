@@ -2,7 +2,7 @@ package com.yxsh.uibase.websocket
 
 /**
  * @author novice
- * @date 2020/6/29
+ *
  */
 object WebSocketStatus {
 

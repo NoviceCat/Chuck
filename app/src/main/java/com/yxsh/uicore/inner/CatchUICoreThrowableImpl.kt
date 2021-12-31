@@ -10,7 +10,6 @@ import com.yxsh.uibase.uicore.utils.UICatchException
  * debug环境 :throw exception 并且上报到bugly
  * release环境：不抛异常，只上报到bugly
  * @author novice
- * @date 2020/6/2
  */
 class CatchUICoreThrowableImpl :UICoreThrowableListener{
 

@@ -13,7 +13,7 @@ import java.util.concurrent.locks.ReentrantLock
 
 /**
  * @author novice
- * @date 2020/6/29
+ *
  */
 class WebSocketManager(wsUrl: String) : IWebsocketManager {
 

@@ -2,7 +2,6 @@ package com.yxsh.uicore.inner
 
 /**
  * @author novice
- * @date 2020/6/2
  */
 class Constant {
 

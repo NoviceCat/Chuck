@@ -17,7 +17,7 @@ import com.yxsh.uibase.uicore.utils.UICoreConfig;
 /**
  * 显示progressBar\statusLayout等。通用组件类实现。提供给BaseActivity和BaseFragment使用
  * author novice
- * date 2019/11/6
+ *
  */
 public class CommonViewDelegate implements ICommonViewDelegate {
 

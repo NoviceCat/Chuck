@@ -9,7 +9,6 @@ import com.yxsh.uicore.module.tablayout.adapter.IncomeListAdapter
 
 /**
  * @author novice
- * @date 2020/6/29
  */
 class IncomeListFragment : SimpleListFragment<String, IncomeListAdapter, IncomeListFragment.IncomeListViewModel>() {
 

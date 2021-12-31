@@ -5,7 +5,7 @@ import okio.ByteString
 
 /**
  * @author novice
- * @date 2020/6/29
+ *
  */
 interface WebSocketStatusListener {
 

@@ -9,7 +9,6 @@ import com.yxsh.uicore.module.tablayout.adapter.ExpendListAdapter
 
 /**
  * @author novice
- * @date 2020/6/29
  */
 class ExpendListFragment : SimpleListFragment<String, ExpendListAdapter, ExpendListFragment.ExpendListViewModel>() {
 
