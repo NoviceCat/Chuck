@@ -9,7 +9,7 @@ import com.yxsh.uibase.uicore.viewmodel.SimpleListViewModel
 
 /**
  * 简单列表
- * @author novic
+ * @author novice
  * @date 2020/1/17
  */
 abstract class SimpleListActivity<T, A : BaseQuickAdapter<T, *>, VM : SimpleListViewModel<T>> : BaseListActivity<T, A, VM>(),

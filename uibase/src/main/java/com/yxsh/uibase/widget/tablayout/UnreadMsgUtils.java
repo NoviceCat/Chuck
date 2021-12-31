@@ -22,7 +22,7 @@ import com.yxsh.uibase.widget.MsgView;
  *  数字一位,圆
  *  数字两位,圆角矩形,圆角是高度的一半
  *  数字超过两位,显示99+
- * @author novic
+ * @author novice
  * @date 2020/1/10
  */
 public class UnreadMsgUtils {

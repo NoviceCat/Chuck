@@ -3,7 +3,7 @@ package com.yxsh.uibase.dialog.inner
 import android.view.View
 
 /**
- * author novic
+ * author novice
  * date 2019/11/7
  */
 interface DialogClickListener {

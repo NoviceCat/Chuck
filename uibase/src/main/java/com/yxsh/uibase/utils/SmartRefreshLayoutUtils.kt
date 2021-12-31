@@ -9,7 +9,7 @@ import com.scwang.smart.refresh.layout.listener.DefaultRefreshHeaderCreator
 
 
 /**
- * author novic
+ * author novice
  * date 2019/11/8
  */
 object SmartRefreshLayoutUtils {

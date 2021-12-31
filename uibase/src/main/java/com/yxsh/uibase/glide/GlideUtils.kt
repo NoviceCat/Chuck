@@ -21,7 +21,7 @@ import jp.wasabeef.glide.transformations.RoundedCornersTransformation
 
 
 /**
- * author novic
+ * author novice
  * date 2019/11/7
  */
 object GlideUtils {

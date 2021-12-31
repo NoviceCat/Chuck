@@ -6,7 +6,7 @@ import com.yxsh.uibase.uicore.statuslayout.OnStatusCustomClickListener
 
 /**
  * baseActivity and baseFragment 使用，共用的view component
- * @author novic
+ * @author novice
  * @date 2020/1/19
  */
 interface ICommonViewDelegate {

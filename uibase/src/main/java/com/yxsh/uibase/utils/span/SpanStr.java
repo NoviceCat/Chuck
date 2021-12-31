@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 
 /**
  * 分段颜色
- * @author : novic
+ * @author : novice
  * @date : 2019/11/22
  */
 public class SpanStr {

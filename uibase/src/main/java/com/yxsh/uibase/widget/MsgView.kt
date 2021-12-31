@@ -14,7 +14,7 @@ import com.yxsh.uibase.R
 
 /**
  * 消息红点未读数
- * author novic
+ * author novice
  * date 2019/11/13
  */
 class MsgView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) :

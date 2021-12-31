@@ -4,7 +4,7 @@ import android.util.Log
 import okhttp3.logging.HttpLoggingInterceptor
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/6/2
  */
 class NetLongLogger : HttpLoggingInterceptor.Logger {

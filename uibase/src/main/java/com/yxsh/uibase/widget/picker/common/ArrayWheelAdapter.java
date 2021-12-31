@@ -8,7 +8,7 @@ import java.util.List;
  * The simple Array wheel adapter
  *
  * @param <T> the element type
- * @author novic
+ * @author novice
  * @date 2020/1/31
  */
 public class ArrayWheelAdapter<T> implements WheelAdapter {

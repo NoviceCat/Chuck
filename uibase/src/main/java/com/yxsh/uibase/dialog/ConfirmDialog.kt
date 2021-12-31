@@ -16,7 +16,7 @@ import com.yxsh.uibase.utils.DoubleClickUtils
 import razerdp.basepopup.BasePopupWindow
 
 /**
- * author novic
+ * author novice
  * date 2019/11/7
  */
 class ConfirmDialog(context: Context) : BasePopupWindow(context), View.OnClickListener {

@@ -11,7 +11,7 @@ import androidx.fragment.app.FragmentTransaction;
 import com.yxsh.uibase.uicore.ui.BaseFragment;
 
 /**
- * author novic
+ * author novice
  * date 2019/11/6
  */
 public class FragmentStarter {

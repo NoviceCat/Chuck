@@ -1,7 +1,7 @@
 package com.yxsh.uibase.widget.swipe;
 
 /**
- * @author novic
+ * @author novice
  * @date 2019/12/17
  */
 public enum State {

@@ -4,7 +4,7 @@ import android.view.View
 import com.yxsh.uibase.uicore.view.ToolBarView
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/1/16
  */
 interface OnToolBarClickListener {

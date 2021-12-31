@@ -5,7 +5,7 @@ import com.yxsh.uibase.uicore.viewmodel.BaseViewModel
 import kotlin.random.Random
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/8/28
  */
 class ViewPagerViewModel : BaseViewModel() {

@@ -7,7 +7,7 @@ import androidx.annotation.NonNull
 
 /**
  * 替换布局帮助类
- * @author novic
+ * @author novice
  * @date 2020/6/24
  */
 class ReplaceLayoutHelper(@NonNull contentLayout: View) {

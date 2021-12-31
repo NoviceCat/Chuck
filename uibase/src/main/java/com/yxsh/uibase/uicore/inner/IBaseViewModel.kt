@@ -6,7 +6,7 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.OnLifecycleEvent
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/1/17
  */
 interface IBaseViewModel : ICoreView, LifecycleObserver {

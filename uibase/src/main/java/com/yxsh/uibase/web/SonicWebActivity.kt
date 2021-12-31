@@ -8,7 +8,7 @@ import com.yxsh.uibase.web.sonic.SonicImpl
 import com.yxsh.uibase.web.sonic.SonicJavaScriptInterface
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/2/25
  */
 abstract class SonicWebActivity<VM : BaseViewModel> : BaseWebActivity<VM>() {

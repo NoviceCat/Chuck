@@ -6,7 +6,7 @@ import androidx.fragment.app.FragmentStatePagerAdapter
 import com.blankj.utilcode.util.CollectionUtils
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/1/10
  */
 class PagerFragmentAdapter<T : Fragment>(fm: FragmentManager, titles: ArrayList<String>) : FragmentStatePagerAdapter(fm) {

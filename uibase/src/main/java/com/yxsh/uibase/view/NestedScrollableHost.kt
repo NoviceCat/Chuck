@@ -29,7 +29,7 @@ import kotlin.math.sign
 
 /**
  * 处理ViewPager2嵌套RecyclerView滚动冲突问题
- * @author novic
+ * @author novice
  * @date 2020/7/29
  */
 class NestedScrollableHost : FrameLayout {

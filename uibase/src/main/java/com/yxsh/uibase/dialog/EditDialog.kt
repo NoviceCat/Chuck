@@ -17,7 +17,7 @@ import com.yxsh.uibase.utils.DoubleClickUtils
 import razerdp.basepopup.BasePopupWindow
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/1/29
  */
 class EditDialog(context: Context) : BasePopupWindow(context), View.OnClickListener {

@@ -35,7 +35,7 @@ import com.yxsh.uibase.uicore.viewmodel.BaseViewModel
 
 /**
  * activity基类
- * @author novic
+ * @author novice
  * @date 2020/1/16
  */
 abstract class BaseActivity<VM : BaseViewModel> : AppCompatActivity(), IBaseView, OnToolBarClickListener {

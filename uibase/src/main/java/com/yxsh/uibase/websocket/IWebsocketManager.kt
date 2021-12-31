@@ -4,7 +4,7 @@ import okhttp3.WebSocket
 import okio.ByteString
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/6/29
  */
 interface IWebsocketManager {

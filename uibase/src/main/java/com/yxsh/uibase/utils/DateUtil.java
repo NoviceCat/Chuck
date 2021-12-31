@@ -17,7 +17,7 @@ import java.util.GregorianCalendar;
 import java.util.TimeZone;
 
 /**
- * author : novic
+ * author : novice
  * date : 2019/8/12
  */
 public class DateUtil {

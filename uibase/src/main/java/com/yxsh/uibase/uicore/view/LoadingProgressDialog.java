@@ -11,7 +11,7 @@ import com.yxsh.uibase.uicore.utils.UICoreConfig;
 
 /**
  * 加载中dialog
- * author novic
+ * author novice
  * date 2019/11/6
  */
 public class LoadingProgressDialog extends ProgressDialog {

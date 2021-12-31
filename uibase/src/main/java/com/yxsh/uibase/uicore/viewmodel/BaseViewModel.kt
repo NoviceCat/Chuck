@@ -18,7 +18,7 @@ import java.text.ParseException
 import javax.net.ssl.SSLException
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/1/17
  */
 abstract class BaseViewModel : ViewModel(), IBaseViewModel, INetView {

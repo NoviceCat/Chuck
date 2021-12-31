@@ -15,7 +15,7 @@ import androidx.annotation.Nullable;
 import com.yxsh.uibase.R;
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/3/5
  */
 public class LoadingView extends View {

@@ -4,7 +4,7 @@ import androidx.annotation.Nullable;
 
 /**
  * 预先条件检查, 未达到条件，抛出异常
- * author novic
+ * author novice
  * date 2019/11/6
  */
 public class ExceptionUtils {

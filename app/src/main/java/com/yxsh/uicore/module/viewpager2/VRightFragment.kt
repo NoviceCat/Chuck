@@ -14,7 +14,7 @@ import com.yxsh.uicore.module.viewpager2.praiseview.PraiseCallback
 import kotlinx.android.synthetic.main.fragment_right.*
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/8/28
  */
 class VRightFragment : BaseFragment<ViewPagerViewModel>() {

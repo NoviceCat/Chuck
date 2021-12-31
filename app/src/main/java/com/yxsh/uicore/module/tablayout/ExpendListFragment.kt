@@ -8,7 +8,7 @@ import com.yxsh.uicore.module.list.TestRepository
 import com.yxsh.uicore.module.tablayout.adapter.ExpendListAdapter
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/6/29
  */
 class ExpendListFragment : SimpleListFragment<String, ExpendListAdapter, ExpendListFragment.ExpendListViewModel>() {

@@ -16,7 +16,7 @@ import com.yxsh.uibase.utils.DoubleClickUtils
 import razerdp.basepopup.BasePopupWindow
 
 /**
- * author novic
+ * author novice
  * date 2020/3/8
  */
 class SingleDialog(context: Context) : BasePopupWindow(context), View.OnClickListener {

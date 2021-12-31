@@ -10,7 +10,7 @@ import java.util.Locale;
 
 /**
  * 动态时间格式化
- * @author novic
+ * @author novice
  * @date 2020/1/17
  */
 public class DynamicTimeFormat extends SimpleDateFormat {

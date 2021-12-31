@@ -6,7 +6,7 @@ import com.chad.library.adapter.base.viewholder.BaseViewHolder
 import com.yxsh.uicore.R
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/6/29
  */
 class IncomeListAdapter : BaseQuickAdapter<String, BaseViewHolder>(R.layout.item_income_list), LoadMoreModule {

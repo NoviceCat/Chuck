@@ -9,7 +9,7 @@ import android.view.WindowManager
 
 /**
  * 处理小米和魅族5.0-6.0系统沉浸式状态栏为白色，字体和图标也为白色问题
- * @author novic
+ * @author novice
  * @date 2019/11/22
  */
 object OSUtils {

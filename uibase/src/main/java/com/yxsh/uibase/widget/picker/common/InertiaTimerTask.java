@@ -7,7 +7,7 @@ import java.util.TimerTask;
 /**
  * 滚动惯性的实现
  *
- * @author novic
+ * @author novice
  * @date 2020/1/31
  */
 public final class InertiaTimerTask extends TimerTask {

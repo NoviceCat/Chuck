@@ -13,7 +13,7 @@ import java.text.ParseException
 import javax.net.ssl.SSLException
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/1/21
  */
 object GlobalNetHelper : INetView {

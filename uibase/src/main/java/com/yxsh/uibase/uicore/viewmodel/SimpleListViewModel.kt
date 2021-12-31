@@ -7,7 +7,7 @@ import com.yxsh.uibase.net.CommonResponse
 import com.yxsh.uibase.uicore.inner.SimpleListContract
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/1/17
  */
 abstract class SimpleListViewModel<T> : BaseViewModel(), SimpleListContract.ISimpleListViewModel {

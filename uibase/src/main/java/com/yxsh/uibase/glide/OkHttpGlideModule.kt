@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit
 
 /**
  * Glide信任所有证书，避免Glide无法加载https图片
- * @author novic
+ * @author novice
  * @date 2020/5/8
  */
 @GlideModule

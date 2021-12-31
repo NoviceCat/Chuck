@@ -19,7 +19,7 @@ import androidx.core.view.MotionEventCompat;
 import com.yxsh.uibase.R;
 
 /**
- * @author novic
+ * @author novice
  * @date 2019/11/28
  */
 public class ToggleButton extends View {

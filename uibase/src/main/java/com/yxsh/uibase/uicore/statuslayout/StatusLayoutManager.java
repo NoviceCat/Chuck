@@ -18,7 +18,7 @@ import com.yxsh.uibase.R;
 
 /**
  * 状态布局管理器
- * author novic
+ * author novice
  * date 2019/11/6
  */
 public class StatusLayoutManager {

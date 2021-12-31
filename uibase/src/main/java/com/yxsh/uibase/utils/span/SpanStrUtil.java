@@ -13,7 +13,7 @@ import androidx.core.content.ContextCompat;
 
 /**
  * 分段文字处理
- * @author : novic
+ * @author : novice
  * @date : 2019/11/22
  */
 public class SpanStrUtil {

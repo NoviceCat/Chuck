@@ -12,7 +12,7 @@ import com.yxsh.uibase.utils.SmartRefreshLayoutUtils
 import com.yxsh.uibase.web.sonic.DefaultSonicRuntimeImpl
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/6/2
  */
 abstract class Core : Application() {

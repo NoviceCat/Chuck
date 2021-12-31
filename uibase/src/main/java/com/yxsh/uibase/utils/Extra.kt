@@ -1,7 +1,7 @@
 package com.yxsh.uibase.utils
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/1/16
  */
 object Extra {

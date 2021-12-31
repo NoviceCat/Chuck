@@ -13,7 +13,7 @@ import com.chad.library.adapter.base.BaseQuickAdapter;
 import static android.widget.LinearLayout.VERTICAL;
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/1/15
  */
 public class SpaceDecoration extends RecyclerView.ItemDecoration {

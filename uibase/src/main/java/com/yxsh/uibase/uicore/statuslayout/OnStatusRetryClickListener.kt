@@ -4,7 +4,7 @@ import android.view.View
 
 /**
  * 状态布局中 点击事件
- * @author novic
+ * @author novice
  * @date 2020/6/24
  */
 interface OnStatusRetryClickListener {

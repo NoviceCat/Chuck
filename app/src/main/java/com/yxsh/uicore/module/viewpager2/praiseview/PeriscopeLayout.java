@@ -25,7 +25,7 @@ import com.yxsh.uicore.R;
 import java.util.Random;
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/8/6
  */
 public class PeriscopeLayout extends RelativeLayout {

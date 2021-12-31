@@ -11,7 +11,7 @@ import com.yxsh.uicore.inner.Constant
 import com.yxsh.uicore.R
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/6/2
  */
 class MyApplication : Core() {

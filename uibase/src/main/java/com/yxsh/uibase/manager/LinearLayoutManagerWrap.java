@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/3/10
  */
 public class LinearLayoutManagerWrap extends LinearLayoutManager {

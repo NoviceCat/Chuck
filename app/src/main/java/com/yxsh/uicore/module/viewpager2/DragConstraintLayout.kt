@@ -10,7 +10,7 @@ import org.greenrobot.eventbus.EventBus
 
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/4/28
  */
 class DragConstraintLayout @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) :

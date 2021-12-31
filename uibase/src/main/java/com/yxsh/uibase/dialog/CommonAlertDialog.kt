@@ -11,7 +11,7 @@ import razerdp.basepopup.BasePopupWindow
 
 /**
  * 通用的弹窗统一处理类（后续新增的样式可在此处扩展）
- * author novic
+ * author novice
  * date 2019/11/7
  */
 class CommonAlertDialog {

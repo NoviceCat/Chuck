@@ -11,7 +11,7 @@ import com.yxsh.uicore.R
 import kotlinx.android.synthetic.main.view_praise.view.*
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/8/6
  */
 class PraiseView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) :

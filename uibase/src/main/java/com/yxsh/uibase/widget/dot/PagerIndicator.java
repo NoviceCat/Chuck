@@ -1,7 +1,7 @@
 package com.yxsh.uibase.widget.dot;
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/2/18
  */
 public interface PagerIndicator {

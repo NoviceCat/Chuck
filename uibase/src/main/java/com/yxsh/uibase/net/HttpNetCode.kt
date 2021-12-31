@@ -1,7 +1,7 @@
 package com.yxsh.uibase.net
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/6/2
  */
 object HttpNetCode {

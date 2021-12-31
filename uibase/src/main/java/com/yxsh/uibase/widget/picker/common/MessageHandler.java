@@ -6,7 +6,7 @@ import android.os.Message;
 import com.yxsh.uibase.widget.picker.WheelView;
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/1/31
  */
 public final class MessageHandler extends Handler {

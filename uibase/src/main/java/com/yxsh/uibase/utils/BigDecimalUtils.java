@@ -3,7 +3,7 @@ package com.yxsh.uibase.utils;
 import java.math.BigDecimal;
 
 /**
- * @author novic
+ * @author novice
  * @date 2019/12/5
  */
 public class BigDecimalUtils {

@@ -17,7 +17,7 @@ import com.yxsh.uicore.module.web.js.JSBridgeUtils
 import com.yxsh.uicore.util.DefaultViewModel
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/7/13
  */
 class CommonWebActivity : SonicWebActivity<DefaultViewModel>() {

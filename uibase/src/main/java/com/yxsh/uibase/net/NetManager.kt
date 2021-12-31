@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/6/2
  */
 object NetManager {

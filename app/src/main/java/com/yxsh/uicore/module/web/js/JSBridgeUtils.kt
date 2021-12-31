@@ -6,7 +6,7 @@ import com.bumptech.glide.Glide
 import com.yxsh.uibase.utils.ThreadPoolManager
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/3/27
  */
 object JSBridgeUtils {

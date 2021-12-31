@@ -17,7 +17,7 @@ import com.yxsh.uibase.R;
 import java.util.ArrayList;
 
 /**
- * @author novic
+ * @author novice
  * @date 2019/12/17
  */
 public class EasySwipeMenuLayout extends ViewGroup {

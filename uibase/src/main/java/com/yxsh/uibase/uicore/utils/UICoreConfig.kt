@@ -4,7 +4,7 @@ import com.yxsh.uibase.BuildConfig
 import com.yxsh.uibase.uicore.inner.UICoreThrowableListener
 
 /**
- * @author novic
+ * @author novice
  * @date 2020/6/2
  */
 object UICoreConfig {
