@@ -69,7 +69,7 @@ dependencies {
     api dep.glideIntegration
     api dep.glideTransform
 
-    //utilcodex
+    //blankJ
     api dep.utils
 
     //basePopup
@@ -82,6 +82,9 @@ dependencies {
 
     //lottie
     api dep.lottie
+
+    //zxing
+    api dep.zxing
 
 }
 

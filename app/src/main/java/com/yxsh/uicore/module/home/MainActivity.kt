@@ -21,6 +21,7 @@ import com.yxsh.uicore.module.viewpager2.DragActivity
 import com.yxsh.uicore.module.viewpager2.ViewPager2Activity
 import com.yxsh.uicore.module.web.CommonWebActivity
 import com.yxsh.uicore.module.widget.WidgetActivity
+import com.yxsh.uicore.module.zxing.ScanActivity
 import com.yxsh.uicore.util.DefaultViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -54,7 +55,7 @@ class MainActivity : BaseActivity<DefaultViewModel>() {
         val list = mutableListOf(
             "基础控件", "CommonAlertDialog", "StatusLayout", "自定义StatusLayout", "完全自定义StatusLayout",
             "指定StatusLayout覆盖区域", "Activity和Fragment交互", "自定义toolbar", "SimpleList", "CommonWeb",
-            "ViewPager2", "drag","世界岛首页"
+            "ViewPager2", "drag","世界岛首页","QRCode"
         )
         recyclerView.adapter = adapter
         recyclerView.layoutManager = GridLayoutManagerWrap(this, 2)
@@ -100,6 +101,9 @@ class MainActivity : BaseActivity<DefaultViewModel>() {
                 }
                 "世界岛首页" -> {
                     WorldIslandMainActivity.start(this)
+                }
+                "QRCode" -> {
+                    ScanActivity.start(this)
                 }
             }
         }

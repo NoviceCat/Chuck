@@ -57,6 +57,9 @@ ext {
             //lottie
             lottie               : 'com.airbnb.android:lottie:3.4.2',
 
+            //zxing
+            zxing                : "cn.bingoogolapple:bga-qrcode-zxing:1.2.1",
+
             /****************************以下是业务所需依赖**************************************************/
             //事件总线
             eventBus             : 'org.greenrobot:eventbus:3.2.0',
