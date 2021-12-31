@@ -13,7 +13,6 @@ import com.yxsh.uibase.uicore.view.ToolBarView
 /**
  * 用户页面, 操作页面，对应Activity,fragment统一接口层
  * @author novice
- * @date 2020/1/16
  */
 interface IBaseView : ICoreView {
 

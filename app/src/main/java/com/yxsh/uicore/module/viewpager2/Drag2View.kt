@@ -9,7 +9,6 @@ import com.yxsh.uicore.R
 /**
  * 移动控件
  * @author novice
- * @date 2020/4/28
  */
 class Drag2View @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) :
     ConstraintLayout(context, attrs, defStyleAttr) {

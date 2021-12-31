@@ -15,7 +15,6 @@ import kotlinx.android.synthetic.main.fragment_right.*
 
 /**
  * @author novice
- * @date 2020/8/28
  */
 class VRightFragment : BaseFragment<ViewPagerViewModel>() {
 

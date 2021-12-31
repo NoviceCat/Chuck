@@ -30,7 +30,7 @@ import java.lang.ref.WeakReference
 /**
  * fragment基类
  * @author novice
- * @date 2020/1/16
+ *
  */
 abstract class BaseFragment<VM : BaseViewModel> : Fragment(), IBaseView, OnToolBarClickListener {
 

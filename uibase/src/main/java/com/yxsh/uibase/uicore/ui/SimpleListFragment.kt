@@ -10,7 +10,7 @@ import com.yxsh.uibase.uicore.viewmodel.SimpleListViewModel
 /**
  * 简单列表
  * @author novice
- * @date 2020/1/17
+ *
  */
 abstract class SimpleListFragment<T, A : BaseQuickAdapter<T, *>, VM : SimpleListViewModel<T>> : BaseListFragment<T, A, VM>(),
     SimpleListContract.SimpleListView<T> {

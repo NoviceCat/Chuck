@@ -9,7 +9,7 @@ import java.util.List;
  *
  * @param <T> the element type
  * @author novice
- * @date 2020/1/31
+ * 
  */
 public class ArrayWheelAdapter<T> implements WheelAdapter {
 

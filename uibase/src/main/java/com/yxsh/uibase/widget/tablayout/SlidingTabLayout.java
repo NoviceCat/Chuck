@@ -38,7 +38,6 @@ import java.util.Collections;
  * 滑动TabLayout,对于ViewPager的依赖性强
  *
  * @author novice
- * @date 2020/1/10
  */
 public class SlidingTabLayout extends HorizontalScrollView implements ViewPager.OnPageChangeListener {
 

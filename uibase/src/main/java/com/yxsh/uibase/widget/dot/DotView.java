@@ -14,7 +14,6 @@ import com.yxsh.uibase.R;
 /**
  * indicator指示器
  * @author novice
- * @date 2020/2/18
  */
 public class DotView extends LinearLayout implements PagerIndicator {
 

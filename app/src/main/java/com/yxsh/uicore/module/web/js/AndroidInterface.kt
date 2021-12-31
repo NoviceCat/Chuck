@@ -9,7 +9,6 @@ import org.json.JSONObject
 /**
  * 与js的交互都在此处处理
  * @author novice
- * @date 2020/2/25
  */
 class AndroidInterface {
 

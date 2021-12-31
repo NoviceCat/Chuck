@@ -14,7 +14,6 @@ import static android.widget.LinearLayout.VERTICAL;
 
 /**
  * @author novice
- * @date 2020/1/15
  */
 public class SpaceDecoration extends RecyclerView.ItemDecoration {
 

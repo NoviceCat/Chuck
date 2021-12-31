@@ -19,7 +19,6 @@ import org.greenrobot.eventbus.ThreadMode
 
 /**
  * @author novice
- * @date 2020/8/28
  */
 class ViewPager2Fragment : BaseFragment<DefaultViewModel>() {
 

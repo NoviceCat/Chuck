@@ -16,7 +16,7 @@ import kotlinx.android.synthetic.main.include_default_recyclerview_list.*
 
 /**
  * @author novice
- * @date 2020/1/17
+ *
  */
 abstract class BaseListActivity<T, A : BaseQuickAdapter<T, *>, VM : BaseViewModel> : BaseActivity<VM>() {
 

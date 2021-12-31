@@ -18,7 +18,6 @@ import kotlinx.android.synthetic.main.view_status_layout.view.*
 /**
  * 状态页面显示。位置显示居中，靠上
  * @author novice
- * @date 2020/6/24
  */
 class DefaultStatusLayout @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) : LinearLayout(context, attrs, defStyleAttr) {
 

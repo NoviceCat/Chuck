@@ -5,7 +5,6 @@ import com.yxsh.uibase.uicore.inner.UICoreThrowableListener
 
 /**
  * @author novice
- * @date 2020/6/2
  */
 object UICoreConfig {
 

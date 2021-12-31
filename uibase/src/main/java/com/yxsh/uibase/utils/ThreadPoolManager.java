@@ -7,7 +7,6 @@ import java.util.concurrent.Executors;
  * 线程池管理类
  *
  * @author novice
- * @date 2019/11/29
  */
 public class ThreadPoolManager {
 

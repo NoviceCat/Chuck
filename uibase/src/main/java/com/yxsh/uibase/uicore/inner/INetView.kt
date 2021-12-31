@@ -5,7 +5,6 @@ import com.yxsh.uibase.net.CommonResponse
 
 /**
  * @author novice
- * @date 2020/1/21
  */
 interface INetView {
 

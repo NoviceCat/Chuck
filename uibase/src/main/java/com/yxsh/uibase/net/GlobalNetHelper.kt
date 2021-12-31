@@ -14,7 +14,6 @@ import javax.net.ssl.SSLException
 
 /**
  * @author novice
- * @date 2020/1/21
  */
 object GlobalNetHelper : INetView {
 

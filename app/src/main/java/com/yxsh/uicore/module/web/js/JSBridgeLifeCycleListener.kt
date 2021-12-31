@@ -2,7 +2,7 @@ package com.yxsh.uicore.module.web.js
 
 /**
  * @author novice
- * @date 2020/3/27
+ *
  */
 interface JSBridgeLifeCycleListener {
 

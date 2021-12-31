@@ -15,7 +15,6 @@ import com.chad.library.adapter.base.BaseQuickAdapter;
 
 /**
  * @author novice
- * @date 2020/1/15
  */
 public class DividerDecoration extends RecyclerView.ItemDecoration{
     private ColorDrawable mColorDrawable;

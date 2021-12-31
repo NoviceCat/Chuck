@@ -5,7 +5,6 @@ import androidx.annotation.StringRes
 /**
  * ViewModel与View的契约接口
  * @author novice
- * @date 2020/1/18
  */
 interface ICoreView {
 

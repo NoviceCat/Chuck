@@ -2,7 +2,6 @@ package com.yxsh.uibase.uicore.inner
 
 /**
  * @author novice
- * @date 2020/1/18
  */
 interface SimpleListContract {
 

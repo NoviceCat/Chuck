@@ -11,7 +11,6 @@ import kotlinx.android.synthetic.main.fragment_left.*
 
 /**
  * @author novice
- * @date 2020/8/28
  */
 class VLeftFragment : BaseFragment<ViewPagerViewModel>() {
 

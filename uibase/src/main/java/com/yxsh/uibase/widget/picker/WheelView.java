@@ -34,7 +34,7 @@ import java.util.concurrent.TimeUnit;
  * 3d滚轮控件
  *
  * @author novice
- * @date 2020/1/31
+ *
  */
 public class WheelView extends View {
 

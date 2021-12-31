@@ -20,7 +20,6 @@ import com.yxsh.uibase.R;
 
 /**
  * @author novice
- * @date 2019/11/28
  */
 public class ToggleButton extends View {
 

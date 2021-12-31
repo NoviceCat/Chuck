@@ -18,7 +18,6 @@ import razerdp.basepopup.BasePopupWindow
 
 /**
  * @author novice
- * @date 2020/1/29
  */
 class EditDialog(context: Context) : BasePopupWindow(context), View.OnClickListener {
 

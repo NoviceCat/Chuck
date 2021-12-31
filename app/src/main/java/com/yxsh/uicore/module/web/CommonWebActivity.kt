@@ -18,7 +18,6 @@ import com.yxsh.uicore.util.DefaultViewModel
 
 /**
  * @author novice
- * @date 2020/7/13
  */
 class CommonWebActivity : SonicWebActivity<DefaultViewModel>() {
 

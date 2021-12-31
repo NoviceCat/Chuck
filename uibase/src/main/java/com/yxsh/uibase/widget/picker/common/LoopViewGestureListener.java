@@ -10,7 +10,7 @@ import com.yxsh.uibase.widget.picker.WheelView;
  * 手势监听
  *
  * @author novice
- * @date 2020/1/31
+ *
  */
 public final class LoopViewGestureListener extends GestureDetector.SimpleOnGestureListener {
 

@@ -9,7 +9,6 @@ import java.util.concurrent.TimeUnit
 
 /**
  * @author novice
- * @date 2020/6/2
  */
 object NetManager {
 

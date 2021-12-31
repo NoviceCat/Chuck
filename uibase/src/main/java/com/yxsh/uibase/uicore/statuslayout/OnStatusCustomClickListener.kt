@@ -4,7 +4,7 @@ import android.view.View
 
 /**
  * @author novice
- * @date 2020/6/24
+ *
  */
 interface OnStatusCustomClickListener {
 

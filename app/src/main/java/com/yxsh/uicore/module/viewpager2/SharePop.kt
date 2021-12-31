@@ -11,7 +11,6 @@ import razerdp.util.animation.TranslationConfig
 
 /**
  * @author novice
- * @date 2020/9/8
  */
 class SharePop(context: Context) : BasePopupWindow(context) {
 

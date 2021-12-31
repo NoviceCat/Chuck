@@ -26,7 +26,7 @@ import java.util.Random;
 
 /**
  * @author novice
- * @date 2020/8/6
+ *  *
  */
 public class PeriscopeLayout extends RelativeLayout {
 

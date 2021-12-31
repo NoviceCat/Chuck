@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * @author novice
- * @date 2020/3/10
+ *
  */
 public class GridLayoutManagerWrap extends GridLayoutManager {
     public GridLayoutManagerWrap(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {

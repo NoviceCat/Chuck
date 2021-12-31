@@ -2,7 +2,7 @@ package com.yxsh.uibase.uicore.statuslayout
 
 /**
  * @author novice
- * @date 2020/6/24
+ *
  */
 enum class StatusLayoutType {
 

@@ -7,7 +7,7 @@ import com.yxsh.uibase.utils.ThreadPoolManager
 
 /**
  * @author novice
- * @date 2020/3/27
+ *
  */
 object JSBridgeUtils {
 

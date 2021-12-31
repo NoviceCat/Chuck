@@ -8,7 +8,6 @@ import androidx.viewpager.widget.ViewPager
 /**
  * 是否可以滚动+临界值回调
  * @author novice
- * @date 2020/8/28
  */
 class CustomScrollViewPager @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :
     ViewPager(context, attrs) {

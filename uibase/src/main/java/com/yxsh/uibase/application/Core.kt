@@ -13,7 +13,6 @@ import com.yxsh.uibase.web.sonic.DefaultSonicRuntimeImpl
 
 /**
  * @author novice
- * @date 2020/6/2
  */
 abstract class Core : Application() {
     companion object {

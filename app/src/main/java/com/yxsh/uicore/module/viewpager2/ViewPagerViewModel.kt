@@ -6,7 +6,6 @@ import kotlin.random.Random
 
 /**
  * @author novice
- * @date 2020/8/28
  */
 class ViewPagerViewModel : BaseViewModel() {
 

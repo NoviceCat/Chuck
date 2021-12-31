@@ -7,7 +7,6 @@ import androidx.lifecycle.OnLifecycleEvent
 
 /**
  * @author novice
- * @date 2020/1/17
  */
 interface IBaseViewModel : ICoreView, LifecycleObserver {
 

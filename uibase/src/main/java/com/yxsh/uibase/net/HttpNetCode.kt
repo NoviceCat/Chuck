@@ -2,7 +2,6 @@ package com.yxsh.uibase.net
 
 /**
  * @author novice
- * @date 2020/6/2
  */
 object HttpNetCode {
 

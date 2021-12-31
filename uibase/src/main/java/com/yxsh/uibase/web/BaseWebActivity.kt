@@ -24,7 +24,6 @@ import kotlinx.android.synthetic.main.activity_common_web2.*
 /**
  * web基类
  * @author novice
- * @date 2020/2/25
  */
 abstract class BaseWebActivity<VM : BaseViewModel> : BaseActivity<VM>() {
 

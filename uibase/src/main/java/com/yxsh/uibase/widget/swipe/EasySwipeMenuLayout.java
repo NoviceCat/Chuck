@@ -18,7 +18,6 @@ import java.util.ArrayList;
 
 /**
  * @author novice
- * @date 2019/12/17
  */
 public class EasySwipeMenuLayout extends ViewGroup {
 

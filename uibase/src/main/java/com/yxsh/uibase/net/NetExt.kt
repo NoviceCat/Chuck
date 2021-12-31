@@ -2,7 +2,6 @@ package com.yxsh.uibase.net
 
 /**
  * @author novice
- * @date 2020/6/2
  */
 fun <T> CommonResponse<T>.process(success: (msg: String?, d: T?) -> Unit, failed: (status: Int, msg: String?, d: T?) -> Unit) {
     try {
