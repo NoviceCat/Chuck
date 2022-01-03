@@ -86,6 +86,12 @@ dependencies {
     //zxing
     api dep.zxing
 
+    //banner
+    api dep.banner
+
+    //抓包工具
+    api dep.chuck
+
 }
 
 

@@ -8,9 +8,8 @@
 
 - 框架结构介绍
 
-  1. Tools ：存放基础控件、通用工具类、Core、图片加载等一些通用的工具类，后续会陆续新增一些基础类的东西。
-  2. UIBase：存放基类，供各个项目使用，整个框架采用Kotlin语言编写，框架基于MVVM+Okhttp+Retrofit+Coroutine来搭建
-  3. 业务层：每个项目都会有一个业务的基类，这个业务基类是基于UICore基类继承出来的，这个业务基类主要存放跟业务相关的基类东西。
+  1. UIBase：存放基类，供各个项目使用，整个框架采用Kotlin语言编写，框架基于MVVM+Okhttp+Retrofit+Coroutine来搭建
+  2. 业务层：每个项目都会有一个业务的基类，这个业务基类是基于UICore基类继承出来的，这个业务基类主要存放跟业务相关的基类东西。
 
 ### Kotlin使用说明
 
@@ -43,10 +42,6 @@
   View层: 负责视图相关（Activity、layout布局文件）,切记不要在View处理业务逻辑的代码
 
   ViewModel层：中间纽带层，负责业务逻辑相关的功能；负责数据的更新，当数据发生变化视图及时更新，切记不要将View传递到ViewModel层，这样违背了Google设计MVVM的初衷，Google也不推荐在ViewModel中处理View内容，ViewModel处理View直接交给LiveData来实现
-
-- MVVM模型图
-
-  ![](C:\Users\96391\Desktop\UICore框架\mvvm结构图.png)
 
 - ViewModel和View之间的通信建议使用LiveData + ViewModel的方式
 
@@ -463,12 +458,12 @@
   7. rightBtnColor/rightBtnColorInt：设置右边按钮文字颜色
   8. confirmBtnText/confirmBtnTextResId：设置单个按钮文字内容
   9. confirmBtnColor/confirmBtnColorInt：设置单个按钮文字颜色
-  10. openBackgroudColor：设置遮罩层背景颜色
+  10. openBackGroundColor：设置遮罩层背景颜色
   11. outSideDismiss：点击外部无法dismiss
   12. backPressEnable：点击返回键无法dismiss
   13. outSideTouchable：外部点击事件无法响应
 
-- CommonAletDialog的简单使用
+- CommonAlertDialog的简单使用
 
   1. 通用弹窗Confirm支持：标题+内容+左边按钮+右边按钮
 

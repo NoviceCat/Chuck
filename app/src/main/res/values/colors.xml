@@ -9,4 +9,7 @@
 
     <color name="tab_textcolor_focus">#212121</color>
     <color name="tab_textcolor_unfocus">#464646</color>
+
+    <color name="c_FC7848">#FC7848</color>
+    <color name="c_F7F7F7">#F7F7F7</color>
 </resources>

@@ -55,7 +55,7 @@ class MainActivity : BaseActivity<DefaultViewModel>() {
         val list = mutableListOf(
             "基础控件", "CommonAlertDialog", "StatusLayout", "自定义StatusLayout", "完全自定义StatusLayout",
             "指定StatusLayout覆盖区域", "Activity和Fragment交互", "自定义toolbar", "SimpleList", "CommonWeb",
-            "ViewPager2", "drag","世界岛首页","QRCode"
+            "ViewPager2", "drag"
         )
         recyclerView.adapter = adapter
         recyclerView.layoutManager = GridLayoutManagerWrap(this, 2)
@@ -98,12 +98,6 @@ class MainActivity : BaseActivity<DefaultViewModel>() {
                 }
                 "drag" -> {
                     DragActivity.start(this)
-                }
-                "世界岛首页" -> {
-                    WorldIslandMainActivity.start(this)
-                }
-                "QRCode" -> {
-                    ScanActivity.start(this)
                 }
             }
         }

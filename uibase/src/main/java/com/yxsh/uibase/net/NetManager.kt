@@ -1,5 +1,7 @@
 package com.yxsh.uibase.net
 
+import com.readystatesoftware.chuck.ChuckInterceptor
+import com.yxsh.uibase.application.Core
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import retrofit2.CallAdapter
@@ -21,7 +23,7 @@ object NetManager {
     class Builer(val baseUrl: String, val outTime: Long = 15L) {
 
         private var interceptors: ArrayList<Interceptor> = arrayListOf()
-        private var callAdapterFactory: CallAdapter.Factory?=null
+        private var callAdapterFactory: CallAdapter.Factory? = null
 
         /**
          * 添加拦截：
@@ -48,6 +50,8 @@ object NetManager {
             for (inteceptor in interceptors) {
                 okHttpBuilder.addInterceptor(inteceptor)
             }
+            // 添加抓包工具
+            okHttpBuilder.addInterceptor(ChuckInterceptor(Core.getContext()))
 
             //超时配置
             okHttpBuilder.connectTimeout(outTime, TimeUnit.SECONDS)
@@ -56,14 +60,14 @@ object NetManager {
             val sslParams = HttpsUtils.getSslSocketFactory()
             okHttpBuilder.sslSocketFactory(sslParams.sslSocketFactory, sslParams.trustManager)
             val okHttpClient = okHttpBuilder.build()
-            if (callAdapterFactory != null){
+            if (callAdapterFactory != null) {
                 retrofit = Retrofit.Builder()
                     .addConverterFactory(GsonConverterFactory.create())
                     .addCallAdapterFactory(callAdapterFactory!!)
                     .baseUrl(baseUrl)
                     .client(okHttpClient)
                     .build()
-            }else{
+            } else {
                 retrofit = Retrofit.Builder()
                     .addConverterFactory(GsonConverterFactory.create())
                     .baseUrl(baseUrl)

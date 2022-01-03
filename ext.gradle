@@ -59,6 +59,10 @@ ext {
 
             //zxing
             zxing                : "cn.bingoogolapple:bga-qrcode-zxing:1.2.1",
+            //BannerViewPager
+            banner               : "com.github.zhpanvip:bannerviewpager:3.5.4",
+            //抓包工具
+            chuck                : "com.readystatesoftware.chuck:library:1.1.0",
 
             /****************************以下是业务所需依赖**************************************************/
             //事件总线

@@ -13,9 +13,11 @@ import com.yxsh.uibase.manager.LinearLayoutManagerWrap
 import com.yxsh.uibase.uicore.ui.BaseActivity
 import com.yxsh.uicore.R
 import com.yxsh.uicore.module.loadingview.LoadingViewActivity
+import com.yxsh.uicore.module.main.WorldIslandMainActivity
 import com.yxsh.uicore.module.roundimageview.ShapealeImageViewActivity
 import com.yxsh.uicore.module.swipe.SwipeMenuActivity
 import com.yxsh.uicore.module.tablayout.TablayoutActivity
+import com.yxsh.uicore.module.zxing.ScanActivity
 import com.yxsh.uicore.util.DefaultViewModel
 import kotlinx.android.synthetic.main.activity_widget.*
 
@@ -42,10 +44,24 @@ class WidgetActivity : BaseActivity<DefaultViewModel>() {
     override fun initView(rootView: View, savedInstanceState: Bundle?) {
         GlideUtils.load(this, R.drawable.banner, img_banner)
         val adapter = WidgetAdapter()
-        val list = mutableListOf("DotView", "WheelView", "EasySwipeMenuLayout", "TabLayout+ViewPager", "LoadingView", "MsgView", "ToggleButton", "ShapeableImageView")
+        val list = mutableListOf(
+            "世界岛首页",
+            "QRCodeScan",
+            "EasySwipeMenuLayout",
+            "TabLayout+ViewPager",
+            "LoadingView",
+            "ShapeableImageView"
+        )
         recyclerView.adapter = adapter
         recyclerView.layoutManager = LinearLayoutManagerWrap(this)
-        recyclerView.addItemDecoration(DividerDecoration(Color.parseColor("#F2F2F2"), SizeUtils.dp2px(1f), SizeUtils.dp2px(15F), 0))
+        recyclerView.addItemDecoration(
+            DividerDecoration(
+                Color.parseColor("#F2F2F2"),
+                SizeUtils.dp2px(1f),
+                SizeUtils.dp2px(15F),
+                0
+            )
+        )
         adapter.setNewInstance(list)
         adapter.setOnItemClickListener { _, _, position ->
             when (adapter.getItem(position)) {
@@ -68,6 +84,12 @@ class WidgetActivity : BaseActivity<DefaultViewModel>() {
                 }
                 "ShapeableImageView" -> {
                     ShapealeImageViewActivity.start(this)
+                }
+                "QRCodeScan" -> {
+                    ScanActivity.start(this)
+                }
+                "世界岛首页" -> {
+                    WorldIslandMainActivity.start(this)
                 }
             }
         }
