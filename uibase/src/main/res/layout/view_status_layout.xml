@@ -24,7 +24,7 @@
         android:textColor="@color/status_layout_tip_text_color"
         android:textSize="16sp" />
 
-    <com.yxsh.uibase.roundview.RoundTextView
+    <com.zxtx.uibase.roundview.RoundTextView
         android:id="@+id/rtv_refresh"
         android:layout_width="100dp"
         android:layout_height="30dp"

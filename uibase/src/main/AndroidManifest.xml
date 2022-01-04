@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.yxsh.uibase" >
+    package="com.zxtx.uibase" >
 
     <!---agentweb所需权限 start-->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -17,7 +17,7 @@
     <application>
 
         <meta-data
-            android:name="com.yxsh.uibase.glide.OkHttpGlideModule"
+            android:name="com.zxtx.uibase.glide.OkHttpGlideModule"
             android:value="AppGlideModule" />
 
     </application>

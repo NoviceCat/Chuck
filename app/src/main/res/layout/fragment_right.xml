@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.yxsh.uicore.module.viewpager2.DragConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.zxtx.sjd.module.viewpager2.DragConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/drag_constraint_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_blue_bright">
 
-    <com.yxsh.uibase.view.NestedScrollableHost
+    <com.zxtx.uibase.view.NestedScrollableHost
         android:layout_width="0dp"
         android:layout_height="200dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,7 +20,7 @@
             android:layout_marginEnd="10dp"
             android:background="@android:color/holo_red_light" />
 
-    </com.yxsh.uibase.view.NestedScrollableHost>
+    </com.zxtx.uibase.view.NestedScrollableHost>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
@@ -31,7 +31,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.yxsh.uicore.module.viewpager2.praiseview.PeriscopeLayout
+    <com.zxtx.sjd.module.viewpager2.praiseview.PeriscopeLayout
         android:id="@+id/periscope"
         android:layout_width="70dp"
         android:layout_height="500dp"
@@ -39,7 +39,7 @@
         app:layout_constraintBottom_toTopOf="@+id/praise_view"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <com.yxsh.uicore.module.viewpager2.praiseview.PraiseView
+    <com.zxtx.sjd.module.viewpager2.praiseview.PraiseView
         android:id="@+id/praise_view"
         android:layout_width="35dp"
         android:layout_height="35dp"
@@ -47,7 +47,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <com.yxsh.uicore.module.viewpager2.Drag1View
+    <com.zxtx.sjd.module.viewpager2.Drag1View
         android:id="@+id/drag_view1"
         android:layout_width="80dp"
         android:layout_height="80dp"
@@ -57,7 +57,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.yxsh.uicore.module.viewpager2.Drag2View
+    <com.zxtx.sjd.module.viewpager2.Drag2View
         android:id="@+id/drag_view2"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -65,4 +65,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</com.yxsh.uicore.module.viewpager2.DragConstraintLayout>
+</com.zxtx.sjd.module.viewpager2.DragConstraintLayout>

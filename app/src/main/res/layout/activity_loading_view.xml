@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@android:color/darker_gray">
 
-    <com.yxsh.uibase.widget.LoadingView
+    <com.zxtx.uibase.widget.LoadingView
         android:id="@+id/loading_view"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

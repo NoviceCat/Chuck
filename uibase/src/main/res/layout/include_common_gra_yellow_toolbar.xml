@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.yxsh.uibase.uicore.view.ToolBarView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.zxtx.uibase.uicore.view.ToolBarView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/toolBarView"
     style="@style/base_toolbar"

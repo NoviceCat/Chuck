@@ -10,7 +10,7 @@
             android:layout_height="match_parent"
             app:srcCompat="@drawable/buz_tc_live_icon_praise" />
 
-    <com.yxsh.uicore.module.viewpager2.praiseview.CicleProgressBar
+    <com.zxtx.sjd.module.viewpager2.praiseview.CicleProgressBar
             android:id="@+id/cicle_progress_bar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

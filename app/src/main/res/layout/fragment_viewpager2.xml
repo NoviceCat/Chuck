@@ -20,7 +20,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:text="123" />
 
-        <com.yxsh.uibase.view.CustomScrollViewPager
+        <com.zxtx.uibase.view.CustomScrollViewPager
             android:id="@+id/custom_viewpager"
             android:layout_width="0dp"
             android:layout_height="0dp"

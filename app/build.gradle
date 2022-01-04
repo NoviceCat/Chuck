@@ -10,7 +10,7 @@ static def packedTime() {
 android {
     compileSdkVersion rootProject.ext.android["compileSdkVersion"]
     defaultConfig {
-        applicationId "com.yxsh.uicore"
+        applicationId "com.zxtx.sjd"
         minSdkVersion rootProject.ext.android["minSdkVersion"]
         targetSdkVersion rootProject.ext.android["targetSdkVersion"]
         versionCode rootProject.ext.android["versionCode"]

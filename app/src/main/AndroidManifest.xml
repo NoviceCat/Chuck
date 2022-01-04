@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.yxsh.uicore">
+    package="com.zxtx.sjd">
 
     <application
-        android:name=".application.SJDApplication"
+        android:name="com.zxtx.sjd.application.SJDApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,7 +19,7 @@
             android:name="android.max_aspect"
             android:value="2.1" />
 
-        <activity android:name=".module.home.MainActivity">
+        <activity android:name="com.zxtx.sjd.module.home.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,60 +28,60 @@
         </activity>
 
         <activity
-            android:name=".module.main.WorldIslandMainActivity"
+            android:name="com.zxtx.sjd.module.main.WorldIslandMainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".module.statuslayout.StatusLayoutActivity"
+            android:name="com.zxtx.sjd.module.statuslayout.StatusLayoutActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".module.customstatuslayout.CustomStatusLayout1Activity"
+            android:name="com.zxtx.sjd.module.customstatuslayout.CustomStatusLayout1Activity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".module.customstatuslayout.CustomStatusLayout2Activity"
+            android:name="com.zxtx.sjd.module.customstatuslayout.CustomStatusLayout2Activity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".module.interior.InteriorActivity"
+            android:name="com.zxtx.sjd.module.interior.InteriorActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".module.customtoolbar.CustomToolbarActivity"
+            android:name="com.zxtx.sjd.module.customtoolbar.CustomToolbarActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".module.list.ListActivity"
+            android:name="com.zxtx.sjd.module.list.ListActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".module.dialog.CommonAlertDialogActivity"
+            android:name="com.zxtx.sjd.module.dialog.CommonAlertDialogActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".module.container.ContainerActivity"
+            android:name="com.zxtx.sjd.module.container.ContainerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".module.widget.WidgetActivity"
+            android:name="com.zxtx.sjd.module.widget.WidgetActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".module.tablayout.TablayoutActivity"
+            android:name="com.zxtx.sjd.module.tablayout.TablayoutActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".module.swipe.SwipeMenuActivity"
+            android:name="com.zxtx.sjd.module.swipe.SwipeMenuActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".module.web.CommonWebActivity"
+            android:name="com.zxtx.sjd.module.web.CommonWebActivity"
             android:configChanges="orientation|screenSize"
             android:hardwareAccelerated="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".module.roundimageview.ShapealeImageViewActivity"
+            android:name="com.zxtx.sjd.module.roundimageview.ShapealeImageViewActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".module.loadingview.LoadingViewActivity"
+            android:name="com.zxtx.sjd.module.loadingview.LoadingViewActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".module.viewpager2.DragActivity"
+            android:name="com.zxtx.sjd.module.viewpager2.DragActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".module.viewpager2.ViewPager2Activity"
+            android:name="com.zxtx.sjd.module.viewpager2.ViewPager2Activity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".module.zxing.ScanActivity"
+            android:name="com.zxtx.sjd.module.zxing.ScanActivity"
             android:screenOrientation="portrait" />
     </application>
 

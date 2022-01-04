@@ -32,7 +32,7 @@
     </LinearLayout>
 
 
-    <com.yxsh.uicore.module.widget.XTabLayout
+    <com.zxtx.sjd.module.widget.XTabLayout
         android:id="@+id/tablayout"
         android:layout_width="0dp"
         android:layout_height="54dp"

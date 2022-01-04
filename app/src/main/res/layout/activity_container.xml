@@ -20,7 +20,7 @@
         android:layout_height="1px"
         android:background="#F3F5F9" />
 
-    <com.yxsh.uibase.roundview.RoundLinearLayout
+    <com.zxtx.uibase.roundview.RoundLinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="15dp"
@@ -46,7 +46,7 @@
             android:textColorHint="#D6D6D6"
             android:textSize="16sp" />
 
-        <com.yxsh.uibase.roundview.RoundTextView
+        <com.zxtx.uibase.roundview.RoundTextView
             android:id="@+id/rtv_send"
             android:layout_width="50dp"
             android:layout_height="25dp"
@@ -58,6 +58,6 @@
             app:rv_backgroundColor="#FC5044"
             app:rv_cornerRadius="15dp" />
 
-    </com.yxsh.uibase.roundview.RoundLinearLayout>
+    </com.zxtx.uibase.roundview.RoundLinearLayout>
 
 </LinearLayout>
