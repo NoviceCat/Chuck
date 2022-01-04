@@ -45,25 +45,26 @@ class FastJsonResponseBodyConverter<T> implements Converter<ResponseBody, T> {
             if (object.has("status")) {
                 sign = object.optInt("status");
             }
+            String strMsg = "";
+            if (object.has("message")) {
+                strMsg = object.optString("message", "");
+            }
             if (sign == ResModel.SUCCESS_CODE) {
                 T t = JSON.parseObject(tempStr, type);
                 if (t instanceof ResModel) {
-                    ((ResModel) t).setMessage(tempStr);
+                    ((ResModel) t).setMessage(strMsg);
                 }
                 return t;
             } else {
                 if (sign == 7) {
                     //注销账号
-
                 }
                 if (sign == 919) {
-
                 }
                 throw new ApiException(tempStr, sign);
             }
-        } catch (JSONException e) {
+        } catch (Exception e) {
             e.printStackTrace();
-//            UMCrashManager.reportCrash(ApplicationManager.getApplication(), e);
         }
         return null;
     }

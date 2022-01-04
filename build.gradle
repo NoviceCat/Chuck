@@ -21,6 +21,7 @@ allprojects {
         mavenCentral()
         maven { url 'https://jitpack.io' }
         maven {
+            // 灵肯广告相关
             credentials {
                 username 'iqLuKm'
                 password 'pomH01oYcR'

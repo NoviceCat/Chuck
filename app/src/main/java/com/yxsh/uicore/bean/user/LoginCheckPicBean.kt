@@ -7,4 +7,4 @@ import java.io.Serializable
  * @Date : 2022/1/4
  * @Desc : 图形验证码
  */
-data class LoginCheckPicBean(var top: Int?, var left: Int?) : Serializable
+data class LoginCheckPicBean(var top: Int? = 0, var left: Int? = 0) : Serializable

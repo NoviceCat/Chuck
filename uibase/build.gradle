@@ -67,6 +67,8 @@ dependencies {
     //监听activity，fragment生命周期，解决RxJava使用中的内存泄漏问题
     api 'com.trello.rxlifecycle3:rxlifecycle-android-lifecycle:3.1.0'
     api 'com.alibaba:fastjson:1.2.61'
+    //fastjson.JSONException: default constructor not found.兼容
+    api "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
 
     // 数据存储 ： MMKV
     api 'com.tencent:mmkv:1.0.10'

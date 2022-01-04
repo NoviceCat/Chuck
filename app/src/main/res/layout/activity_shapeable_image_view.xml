@@ -18,7 +18,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:scaleType="centerCrop"
-            android:src="@mipmap/image"
+            android:src="@drawable/ic_shapeable_img_test"
             app:shapeAppearanceOverlay="@style/shapeRoundedCorner10" />
 
         <com.google.android.material.imageview.ShapeableImageView
@@ -26,7 +26,7 @@
             android:layout_height="100dp"
             android:layout_marginStart="64dp"
             android:scaleType="centerCrop"
-            android:src="@mipmap/image"
+            android:src="@drawable/ic_shapeable_img_test"
             app:shapeAppearanceOverlay="@style/shapeCircle" />
     </LinearLayout>
 
@@ -42,7 +42,7 @@
             android:layout_height="100dp"
             android:layout_gravity="center"
             android:scaleType="centerCrop"
-            android:src="@mipmap/image"
+            android:src="@drawable/ic_shapeable_img_test"
             app:shapeAppearanceOverlay="@style/cutImageView2" />
 
         <com.google.android.material.imageview.ShapeableImageView
@@ -51,7 +51,7 @@
             android:layout_gravity="center"
             android:layout_marginStart="64dp"
             android:scaleType="centerCrop"
-            android:src="@mipmap/image"
+            android:src="@drawable/ic_shapeable_img_test"
             app:shapeAppearanceOverlay="@style/topRightCorner" />
     </LinearLayout>
 
@@ -67,7 +67,7 @@
             android:layout_height="100dp"
             android:layout_gravity="center"
             android:scaleType="centerCrop"
-            android:src="@mipmap/image"
+            android:src="@drawable/ic_shapeable_img_test"
             app:shapeAppearanceOverlay="@style/cutImageView" />
 
         <com.google.android.material.imageview.ShapeableImageView
@@ -76,7 +76,7 @@
             android:layout_gravity="center"
             android:layout_marginStart="64dp"
             android:scaleType="centerCrop"
-            android:src="@mipmap/image"
+            android:src="@drawable/ic_shapeable_img_test"
             app:shapeAppearanceOverlay="@style/rightCut" />
     </LinearLayout>
 
