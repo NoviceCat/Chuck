@@ -4,7 +4,7 @@
     package="com.yxsh.uicore">
 
     <application
-        android:name=".application.MyApplication"
+        android:name=".application.SJDApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"

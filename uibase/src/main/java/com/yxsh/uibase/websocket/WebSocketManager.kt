@@ -142,7 +142,7 @@ class WebSocketManager(wsUrl: String) : IWebsocketManager {
                 .url(wsUrl)
                 .build()
         }
-        mOkHttpClient!!.dispatcher.cancelAll()
+//        mOkHttpClient!!.dispatcher.cancelAll()
         try {
             mLock!!.lockInterruptibly()
             try {
@@ -217,9 +217,9 @@ class WebSocketManager(wsUrl: String) : IWebsocketManager {
             return
         }
         cancelReconnect()
-        if (mOkHttpClient != null) {
-            mOkHttpClient!!.dispatcher.cancelAll()
-        }
+//        if (mOkHttpClient != null) {
+//            mOkHttpClient!!.dispatcher.cancelAll()
+//        }
         if (mWebSocket != null) {
             val isClosed = mWebSocket!!.close(WebSocketStatus.Code.NORMAL_CLOSE, WebSocketStatus.Tip.NORMAL_CLOSE)
             //非正常关闭连接

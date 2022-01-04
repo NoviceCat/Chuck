@@ -78,6 +78,7 @@ class XTabLayout @JvmOverloads constructor(
     private fun initConfig(@BaseInner.TabIndex vararg tabIndex: Int) {
         for (tab in tabIndex) {
             changeTabUnclick(tab, true)
+//            http://39.106.44.116:8263/worldisland-wsapi/new/message/get/message/card/list
         }
     }
 

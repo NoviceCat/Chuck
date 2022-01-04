@@ -1,6 +1,5 @@
 package com.yxsh.uicore.module.main
 
-import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
@@ -8,16 +7,20 @@ import androidx.lifecycle.ViewModelProvider
 import com.blankj.utilcode.util.SizeUtils
 import com.blankj.utilcode.util.ToastUtils
 import com.doule.base_lib.utils.extension.safe
+import com.yxsh.uibase.dialog.CheckPicDialog
 import com.yxsh.uibase.glide.GlideUtils
 import com.yxsh.uibase.uicore.ui.BaseFragment
+import com.yxsh.uibase.utils.DoubleClickUtils
 import com.yxsh.uicore.R
+import com.yxsh.uicore.bean.user.LoginCheckPicBean
 import com.yxsh.uicore.module.zxing.ScanActivity
+import com.yxsh.uicore.network.NetObserver
+import com.yxsh.uicore.network.login.UserHttp
 import com.yxsh.uicore.util.DefaultViewModel
 import com.zhpan.bannerview.BannerViewPager
 import com.zhpan.bannerview.BaseBannerAdapter
 import com.zhpan.bannerview.BaseViewHolder
 import com.zhpan.bannerview.constants.IndicatorGravity
-import com.zhpan.bannerview.indicator.DrawableIndicator
 import com.zhpan.indicator.base.IIndicator
 import com.zhpan.indicator.enums.IndicatorSlideMode
 import kotlinx.android.synthetic.main.frg_main_home.*
@@ -49,6 +52,7 @@ class MainHomeFragment : BaseFragment<DefaultViewModel>(), View.OnClickListener 
     override fun initView(rootView: View, savedInstanceState: Bundle?) {
         initCoverBanner(arrayListOf("", "", "", "", ""))
         iv_scan.setOnClickListener(this)
+        tv_click.setOnClickListener(this)
     }
 
     private fun initCoverBanner(list: List<String>) {
@@ -140,6 +144,30 @@ class MainHomeFragment : BaseFragment<DefaultViewModel>(), View.OnClickListener 
         when (view.id) {
             R.id.iv_scan -> {// 点击 扫描
                 ScanActivity.start(requireContext())
+            }
+            R.id.tv_click -> {// 点击 获取验证码
+                if (DoubleClickUtils.instance.isInvalidClick()) return
+                UserHttp.getLoginCheckPicDetail()!!
+                    .subscribe(object : NetObserver<LoginCheckPicBean?>() {
+                        override fun onSuccess(bean: LoginCheckPicBean?) {
+                            super.onSuccess(bean)
+                            CheckPicDialog(requireContext(), object : CheckPicDialog.CheckCallBack {
+                                override fun onCheckSuccess() {
+
+                                }
+
+                                override fun onCheckFail() {
+                                }
+
+                            }).showPopupWindow()
+                        }
+
+                        override fun onError(e: Throwable) {
+                            super.onError(e)
+                        }
+                    })
+
+
             }
 
         }
