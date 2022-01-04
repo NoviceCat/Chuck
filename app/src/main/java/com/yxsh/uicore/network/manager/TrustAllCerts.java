@@ -1,4 +1,4 @@
-package com.yxsh.uicore.network;
+package com.yxsh.uicore.network.manager;
 
 import java.security.cert.X509Certificate;
 

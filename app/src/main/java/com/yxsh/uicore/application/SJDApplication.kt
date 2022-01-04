@@ -15,7 +15,7 @@ import com.yxsh.uicore.R
 import com.yxsh.uicore.constants.ThirdConstants
 import com.yxsh.uicore.inner.CatchUICoreThrowableImpl
 import com.yxsh.uicore.inner.Constant
-import com.yxsh.uicore.network.LoadUtils
+import com.yxsh.uicore.network.manager.LoadUtils
 
 
 /**

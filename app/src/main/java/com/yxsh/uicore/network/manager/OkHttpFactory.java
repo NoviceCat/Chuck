@@ -1,4 +1,4 @@
-package com.yxsh.uicore.network;
+package com.yxsh.uicore.network.manager;
 
 import com.readystatesoftware.chuck.ChuckInterceptor;
 import com.yxsh.uibase.application.Core;

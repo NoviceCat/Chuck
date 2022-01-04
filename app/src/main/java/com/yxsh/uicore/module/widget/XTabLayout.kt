@@ -114,14 +114,14 @@ class XTabLayout @JvmOverloads constructor(
                 localClickConfig(
                     homeIcon,
                     homeName,
-                    R.drawable.icon_tab_home,
+                    R.drawable.ic_main_home_ed,
                     R.string.title_index_home
                 )
             } else {
                 localUnClickConfig(
                     homeIcon,
                     homeName,
-                    R.drawable.icon_tab_home,
+                    R.drawable.ic_main_home_un,
                     R.string.title_index_home
                 )
             }
@@ -131,14 +131,14 @@ class XTabLayout @JvmOverloads constructor(
                 localClickConfig(
                     videoIcon,
                     videoName,
-                    R.drawable.icon_tab_home,
+                    R.drawable.ic_main_video_ed,
                     R.string.title_index_video
                 )
             } else {
                 localUnClickConfig(
                     videoIcon,
                     videoName,
-                    R.drawable.icon_tab_home,
+                    R.drawable.ic_main_video_un,
                     R.string.title_index_video
                 )
             }
@@ -148,14 +148,14 @@ class XTabLayout @JvmOverloads constructor(
                 localClickConfig(
                     msgIcon,
                     msgName,
-                    R.drawable.icon_tab_home,
+                    R.drawable.ic_main_msg_ed,
                     R.string.title_index_msg
                 )
             } else {
                 localUnClickConfig(
                     msgIcon,
                     msgName,
-                    R.drawable.icon_tab_home,
+                    R.drawable.ic_main_msg_un,
                     R.string.title_index_msg
                 )
             }
@@ -165,14 +165,14 @@ class XTabLayout @JvmOverloads constructor(
                 localClickConfig(
                     myIcon,
                     myName,
-                    R.drawable.icon_tab_home,
+                    R.drawable.ic_main_mine_ed,
                     R.string.title_index_my
                 )
             } else {
                 localUnClickConfig(
                     myIcon,
                     myName,
-                    R.drawable.icon_tab_home,
+                    R.drawable.ic_main_mine_un,
                     R.string.title_index_my
                 )
             }

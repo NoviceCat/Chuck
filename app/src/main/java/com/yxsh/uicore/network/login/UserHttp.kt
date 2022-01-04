@@ -1,14 +1,11 @@
 package com.yxsh.uicore.network.login
 
 import com.yxsh.uicore.bean.user.LoginCheckPicBean
-import com.yxsh.uicore.network.HttpManager
-import com.yxsh.uicore.network.ReqModel
-import com.yxsh.uicore.network.ResponseTransformer
-import com.yxsh.uicore.network.RxHelper
+import com.yxsh.uicore.network.manager.HttpManager
+import com.yxsh.uicore.network.manager.ResponseTransformer
+import com.yxsh.uicore.network.manager.RxHelper
 import com.yxsh.uicore.util.LocalUtil
 import io.reactivex.Observable
-import java.util.HashMap
-import kotlin.random.Random
 
 /**
  * @Author : novice

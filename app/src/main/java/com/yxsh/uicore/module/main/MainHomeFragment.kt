@@ -14,7 +14,7 @@ import com.yxsh.uibase.utils.DoubleClickUtils
 import com.yxsh.uicore.R
 import com.yxsh.uicore.bean.user.LoginCheckPicBean
 import com.yxsh.uicore.module.zxing.ScanActivity
-import com.yxsh.uicore.network.NetObserver
+import com.yxsh.uicore.network.manager.NetObserver
 import com.yxsh.uicore.network.login.UserHttp
 import com.yxsh.uicore.util.DefaultViewModel
 import com.zhpan.bannerview.BannerViewPager
@@ -161,12 +161,7 @@ class MainHomeFragment : BaseFragment<DefaultViewModel>(), View.OnClickListener 
                             super.onError(e)
                         }
                     })
-
-
             }
-
         }
-
     }
-
 }

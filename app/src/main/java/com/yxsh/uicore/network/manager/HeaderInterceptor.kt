@@ -1,4 +1,4 @@
-package com.yxsh.uicore.network
+package com.yxsh.uicore.network.manager
 
 import com.yxsh.uicore.util.SJDCache
 import okhttp3.Interceptor

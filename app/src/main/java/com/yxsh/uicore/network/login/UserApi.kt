@@ -2,7 +2,7 @@ package com.yxsh.uicore.network.login
 
 import com.yxsh.uicore.bean.user.LoginCheckPicBean
 import com.yxsh.uicore.bean.user.LoginResBean
-import com.yxsh.uicore.network.ResModel
+import com.yxsh.uicore.network.manager.ResModel
 import io.reactivex.Observable
 import retrofit2.http.*
 

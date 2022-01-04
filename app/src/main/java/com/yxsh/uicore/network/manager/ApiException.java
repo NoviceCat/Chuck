@@ -1,4 +1,4 @@
-package com.yxsh.uicore.network;
+package com.yxsh.uicore.network.manager;
 
 /**
  * 接口返回错误

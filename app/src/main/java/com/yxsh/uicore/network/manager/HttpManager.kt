@@ -1,5 +1,6 @@
-package com.yxsh.uicore.network
+package com.yxsh.uicore.network.manager
 
+import com.yxsh.uicore.network.URLConfig
 import com.yxsh.uicore.network.login.UserApi
 
 /**

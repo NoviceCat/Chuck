@@ -1,4 +1,4 @@
-package com.yxsh.uicore.network;
+package com.yxsh.uicore.network.manager;
 
 import android.text.TextUtils;
 
@@ -6,7 +6,6 @@ import android.text.TextUtils;
 import com.blankj.utilcode.util.LogUtils;
 import com.blankj.utilcode.util.NetworkUtils;
 import com.blankj.utilcode.util.ToastUtils;
-import com.yxsh.uibase.application.Core;
 
 import org.json.JSONException;
 
