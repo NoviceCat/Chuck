@@ -71,11 +71,6 @@ class MainHomeFragment : BaseFragment<DefaultViewModel>(), View.OnClickListener 
                 .setIndicatorVisibility(View.GONE)
                 .setIndicatorSlideMode(IndicatorSlideMode.NORMAL)
                 .setIndicatorView(getVectorDrawableIndicator())
-//                .setIndicatorGravity(IndicatorGravity.CENTER)
-//                .setIndicatorSliderColor(
-//                    resources.getColor(R.color.white),
-//                    resources.getColor(R.color.c_FC7848)
-//                )
                 .setOnPageClickListener { _, position ->
                     ToastUtils.showShort("点击 == $position")
                 }

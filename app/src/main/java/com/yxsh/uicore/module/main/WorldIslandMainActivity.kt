@@ -6,7 +6,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.blankj.utilcode.util.SPUtils
+import com.blankj.utilcode.util.LogUtils
+import com.mob.videosdk.DrawVideoFragment
+import com.mob.videosdk.VideoSdk
 import com.yxsh.uibase.uicore.ui.BaseActivity
 import com.yxsh.uicore.R
 import com.yxsh.uicore.inner.BaseInner
@@ -27,7 +29,7 @@ class WorldIslandMainActivity : BaseActivity<DefaultViewModel>() {
     }
 
     private lateinit var tabHomeFragment: MainHomeFragment
-    private lateinit var tabVideoFragment: MainVideoFragment
+    private lateinit var tabVideoFragment: DrawVideoFragment
     private lateinit var tabMsgFragment: MainMessageFragment
     private lateinit var tabMineFragment: MainMineFragment
 
@@ -51,7 +53,7 @@ class WorldIslandMainActivity : BaseActivity<DefaultViewModel>() {
 
     private fun initTablayout() {
         tabHomeFragment = MainHomeFragment.newInstance()
-        tabVideoFragment = MainVideoFragment.newInstance()
+        tabVideoFragment = DrawVideoFragment.newInstance()
         tabMsgFragment = MainMessageFragment.newInstance()
         tabMineFragment = MainMineFragment.newInstance()
         tablayout.initTab(callback = {
@@ -69,6 +71,39 @@ class WorldIslandMainActivity : BaseActivity<DefaultViewModel>() {
             }
             changeFragment(it)
         })
+
+        tabVideoFragment.setVideoListener(object : VideoSdk.VideoListener {
+            override fun onVideoShow(id: String, videoType: Int) { // 视频切换展示
+                LogUtils.d("视频切换展示")
+            }
+
+            override fun onVideoStart(id: String, videoType: Int) { // 视频播放开始
+                LogUtils.d("视频播放开始")
+            }
+
+            override fun onVideoPause(id: String, videoType: Int) { // 视频播放暂停
+                LogUtils.d("视频播放暂停")
+            }
+
+            override fun onVideoResume(id: String, videoType: Int) { // 视频播放恢复
+                LogUtils.d("视频播放恢复")
+            }
+
+            override fun onVideoComplete(id: String, videoType: Int) { // 视频播放完成
+                LogUtils.d("视频播放完成")
+            }
+
+            override fun onVideoError(id: String, videoType: Int) { // 视频播放出错
+                LogUtils.d("视频播放出错")
+            }
+        })
+        tabVideoFragment.setOnLikeClickListener { id, videoType, like -> // 点赞或取消点赞
+            true
+        }
+
+        tabVideoFragment.setOnShareClickListener { id, videoType, videoUrl, author, title -> // 视频分享监听
+            true
+        }
     }
 
     private fun getFragment(@BaseInner.TabIndex tabIndex: Int): Fragment? {
