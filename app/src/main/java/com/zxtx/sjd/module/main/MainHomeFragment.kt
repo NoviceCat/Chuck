@@ -13,7 +13,7 @@ import com.zxtx.uibase.uicore.ui.BaseFragment
 import com.zxtx.uibase.utils.DoubleClickUtils
 import com.zxtx.sjd.R
 import com.zxtx.sjd.bean.user.LoginCheckPicBean
-import com.zxtx.sjd.module.zxing.ScanActivity
+import com.zxtx.sjd.util.zxing.ScanActivity
 import com.zxtx.sjd.network.manager.NetObserver
 import com.zxtx.sjd.network.login.UserHttp
 import com.zxtx.sjd.util.DefaultViewModel

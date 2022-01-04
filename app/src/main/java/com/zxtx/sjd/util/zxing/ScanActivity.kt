@@ -1,4 +1,4 @@
-package com.zxtx.sjd.module.zxing
+package com.zxtx.sjd.util.zxing
 
 import android.content.ContentUris
 import android.content.Context

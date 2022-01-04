@@ -1,4 +1,4 @@
-package com.zxtx.sjd.module.zxing;
+package com.zxtx.sjd.util.zxing;
 
 import android.app.Activity;
 import android.content.Context;

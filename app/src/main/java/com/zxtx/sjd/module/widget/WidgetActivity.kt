@@ -17,7 +17,7 @@ import com.zxtx.sjd.module.main.WorldIslandMainActivity
 import com.zxtx.sjd.module.roundimageview.ShapealeImageViewActivity
 import com.zxtx.sjd.module.swipe.SwipeMenuActivity
 import com.zxtx.sjd.module.tablayout.TablayoutActivity
-import com.zxtx.sjd.module.zxing.ScanActivity
+import com.zxtx.sjd.util.zxing.ScanActivity
 import com.zxtx.sjd.util.DefaultViewModel
 import kotlinx.android.synthetic.main.activity_widget.*
 

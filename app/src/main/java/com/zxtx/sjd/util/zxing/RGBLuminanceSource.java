@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.zxtx.sjd.module.zxing;
+package com.zxtx.sjd.util.zxing;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
