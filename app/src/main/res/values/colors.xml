@@ -11,5 +11,7 @@
     <color name="tab_textcolor_unfocus">#464646</color>
 
     <color name="c_FC7848">#FC7848</color>
+    <color name="c_FB7238">#FB7238</color>
     <color name="c_F7F7F7">#F7F7F7</color>
+    <color name="c_333333">#333333</color>
 </resources>

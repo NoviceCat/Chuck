@@ -11,7 +11,6 @@ import android.widget.TextView
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.core.content.ContextCompat
-import com.yxsh.uibase.widget.MsgView
 import com.yxsh.uicore.R
 import kotlinx.android.synthetic.main.view_main_tab.view.*
 import com.yxsh.uicore.inner.BaseInner
@@ -118,7 +117,7 @@ class XTabLayout @JvmOverloads constructor(
                     R.string.title_index_home
                 )
             } else {
-                localUnclickConfig(
+                localUnClickConfig(
                     homeIcon,
                     homeName,
                     R.drawable.icon_tab_home,
@@ -135,7 +134,7 @@ class XTabLayout @JvmOverloads constructor(
                     R.string.title_index_video
                 )
             } else {
-                localUnclickConfig(
+                localUnClickConfig(
                     videoIcon,
                     videoName,
                     R.drawable.icon_tab_home,
@@ -152,7 +151,7 @@ class XTabLayout @JvmOverloads constructor(
                     R.string.title_index_msg
                 )
             } else {
-                localUnclickConfig(
+                localUnClickConfig(
                     msgIcon,
                     msgName,
                     R.drawable.icon_tab_home,
@@ -169,7 +168,7 @@ class XTabLayout @JvmOverloads constructor(
                     R.string.title_index_my
                 )
             } else {
-                localUnclickConfig(
+                localUnClickConfig(
                     myIcon,
                     myName,
                     R.drawable.icon_tab_home,
@@ -183,7 +182,7 @@ class XTabLayout @JvmOverloads constructor(
         }
     }
 
-    private fun localUnclickConfig(
+    private fun localUnClickConfig(
         icon: AppCompatImageView,
         name: AppCompatTextView,
         iconRes: Int,
@@ -191,7 +190,7 @@ class XTabLayout @JvmOverloads constructor(
     ) {
         icon.setImageResource(iconRes)
         name.setText(text)
-        name.setTextColor(ContextCompat.getColor(context, R.color.tab_textcolor_unfocus))
+        name.setTextColor(ContextCompat.getColor(context, R.color.c_333333))
     }
 
     private fun localClickConfig(
@@ -202,7 +201,7 @@ class XTabLayout @JvmOverloads constructor(
     ) {
         icon.setImageResource(iconRes)
         name.setText(text)
-        name.setTextColor(ContextCompat.getColor(context, R.color.tab_textcolor_focus))
+        name.setTextColor(ContextCompat.getColor(context, R.color.c_FB7238))
     }
 
     override fun onClick(v: View) {

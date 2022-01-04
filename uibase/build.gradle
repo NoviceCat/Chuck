@@ -92,6 +92,14 @@ dependencies {
     //抓包工具
     api dep.chuck
 
+    //权限判断
+    api dep.rxPermission
+    api dep.rxAndroid
+    api dep.rxJava
+
+    //图片选择器
+    api dep.pictureSelector
+
 }
 
 

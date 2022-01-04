@@ -11,6 +11,7 @@ import com.doule.base_lib.utils.extension.safe
 import com.yxsh.uibase.glide.GlideUtils
 import com.yxsh.uibase.uicore.ui.BaseFragment
 import com.yxsh.uicore.R
+import com.yxsh.uicore.module.zxing.ScanActivity
 import com.yxsh.uicore.util.DefaultViewModel
 import com.zhpan.bannerview.BannerViewPager
 import com.zhpan.bannerview.BaseBannerAdapter
@@ -26,7 +27,7 @@ import kotlinx.android.synthetic.main.frg_main_home.*
  * @Date : 2021/12/31
  * @Desc : home
  */
-class MainHomeFragment : BaseFragment<DefaultViewModel>() {
+class MainHomeFragment : BaseFragment<DefaultViewModel>(), View.OnClickListener {
 
     companion object {
         fun newInstance(): MainHomeFragment {
@@ -47,11 +48,11 @@ class MainHomeFragment : BaseFragment<DefaultViewModel>() {
 
     override fun initView(rootView: View, savedInstanceState: Bundle?) {
         initCoverBanner(arrayListOf("", "", "", "", ""))
+        iv_scan.setOnClickListener(this)
     }
 
     private fun initCoverBanner(list: List<String>) {
-        var dataList = UserInfoCoverBannerAdapter.strings2BannerEntityList(list)
-
+        val dataList = UserInfoCoverBannerAdapter.strings2BannerEntityList(list)
         if (cover_banner.adapter == null) {
             val dotSize = SizeUtils.dp2px(4f)
             val dotMargin = SizeUtils.dp2px(3f)
@@ -132,6 +133,17 @@ class MainHomeFragment : BaseFragment<DefaultViewModel>() {
                 this.url = url
             }
         }
+    }
+
+    override fun onClick(view: View) {
+
+        when (view.id) {
+            R.id.iv_scan -> {// 点击 扫描
+                ScanActivity.start(requireContext())
+            }
+
+        }
+
     }
 
 }

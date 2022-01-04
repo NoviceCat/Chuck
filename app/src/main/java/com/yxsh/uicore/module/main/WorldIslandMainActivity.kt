@@ -47,7 +47,6 @@ class WorldIslandMainActivity : BaseActivity<DefaultViewModel>() {
 
     override fun initView(rootView: View, savedInstanceState: Bundle?) {
         initTablayout()
-
     }
 
     private fun initTablayout() {
