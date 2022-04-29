@@ -1,2 +1,2 @@
-include ':app', ':uibase'
+include ':app', ':uibase',':chuck'
 rootProject.name='UICore'

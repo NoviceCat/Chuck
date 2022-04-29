@@ -83,6 +83,9 @@
         <activity
             android:name="com.zxtx.sjd.util.zxing.ScanActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".demo.TouchActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

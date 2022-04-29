@@ -23,6 +23,7 @@ import com.zhpan.bannerview.BaseViewHolder
 import com.zhpan.bannerview.constants.IndicatorGravity
 import com.zhpan.indicator.base.IIndicator
 import com.zhpan.indicator.enums.IndicatorSlideMode
+import com.zxtx.sjd.demo.TouchActivity
 import kotlinx.android.synthetic.main.frg_main_home.*
 
 /**
@@ -138,7 +139,8 @@ class MainHomeFragment : BaseFragment<DefaultViewModel>(), View.OnClickListener 
 
         when (view.id) {
             R.id.iv_scan -> {// 点击 扫描
-                ScanActivity.start(requireContext())
+//                ScanActivity.start(requireContext())
+                TouchActivity.start(requireContext())
             }
             R.id.tv_click -> {// 点击 获取验证码
                 if (DoubleClickUtils.instance.isInvalidClick()) return
