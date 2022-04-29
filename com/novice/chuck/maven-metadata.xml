@@ -3,11 +3,12 @@
   <groupId>com.novice</groupId>
   <artifactId>chuck</artifactId>
   <versioning>
-    <release>1.0.0</release>
+    <release>1.0.1</release>
     <versions>
       <version>null</version>
       <version>1.0.0</version>
+      <version>1.0.1</version>
     </versions>
-    <lastUpdated>20220429062437</lastUpdated>
+    <lastUpdated>20220429065153</lastUpdated>
   </versioning>
 </metadata>
